@@ -55,7 +55,7 @@ The Unity project imports the pavilion and speaker models so the structure can b
 
 ## Construction and finished pavilion
 
-The ten photographs below are intentionally presented as a 2 × 5 build gallery, moving from framing and fabrication to the completed gathering space.
+A gallery, moving from framing and fabrication, to the completed gathering space.
 
 <table>
   <tr>
