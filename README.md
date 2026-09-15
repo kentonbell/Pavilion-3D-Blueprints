@@ -1,200 +1,113 @@
-# 🏗 Pavilion 3D Blueprints
+# Pavilion 3D Blueprints — From Survey to Built Structure
 
-**Author:** Kenton Bell  
+![Unity](https://img.shields.io/badge/Unity-3D_visualization-000?style=for-the-badge&logo=unity)
+![CAD](https://img.shields.io/badge/CAD-300%2B_part_exports-0A7EA4?style=flat-square)
+![Built](https://img.shields.io/badge/Outcome-constructed_May–July_2024-2E8B57?style=flat-square)
 
-A 3D-modeled structural pavilion project I designed and constructed between **May 2024 and July 2024**.  
-This repository documents the **blueprints, structural layout, and dimensional planning** used to build the pavilion.
+A complete design-to-construction record for a large outdoor pavilion: site reference, dimensional drawings, a detailed CAD assembly, Unity visualization, integrated electrical/audio planning, and photographs of the finished structure in use.
 
-### Full Pavilion Structure
+This was not only a modeling exercise. The pavilion was designed and constructed between May and July 2024, and the repository preserves the digital decisions that guided the physical build.
 
-![Full Drawing](https://github.com/kentonbell/Pavilion-3D-Blueprints/blob/7f01ab4ba3370b99f02610582be2d307d8f998fb/Drawings/Full%20Drawing.png)
+![Full color-coded pavilion model](<Drawings/Full Drawing.png>)
 
+## Project scope
 
-## 📚 Index
+The pavilion uses a four-post frame and pitched roof over an approximately 34.63-foot north–south span and 20.42-foot east–west width. The model documents the primary posts, perimeter beams, joists, rafters, purlins, spacers, trim, diagonal reinforcement, roof surfaces, floor/site relationship, and equipment placement.
 
-1. Project Overview  
-2. Structural Frame  
-3. Roof System  
-4. Electrical Infrastructure  
-5. Dimensional Layout  
-6. Blueprint Drawings  
+The planning set also records:
 
----
+- approximately 21.27 feet of total structure height
+- 56-inch below-grade post embedment
+- 12 main roof rafters
+- approximately 24-inch purlin-support spacing
+- roof and cut geometry captured in dimensioned elevations
+- underground power, switched circuits, XLR audio, and Cat6-compatible conduit routes
 
-## 📖 About
+## Design workflow
 
-This repository contains the **3D structural blueprints and planning documentation** for a custom outdoor pavilion.
+### 1. Site and footprint
 
-The project focuses on documenting **what was designed and constructed**, including:
+The satellite view establishes the pavilion's location and relationship to the surrounding hardscape before structure and roof details are considered.
 
-- Structural framing layout
-- Roof geometry and pitch
-- Support beam configuration
-- Spacing systems for load distribution
-- Electrical conduit integration
-- Dimensional planning and measurements
-- Blueprint visualizations used during construction
+![Satellite view of the pavilion site](<Drawings/Sat View.png>)
 
-The pavilion was modeled and built over a **three-month period from May to July 2024**, with the blueprints serving as the reference for material cutting, structural layout, and final geometry.
+### 2. Structural assembly
 
-Rather than focusing on instructions, this repository captures the **design and structural planning of the finished pavilion system**.
+The roofless model exposes the load path and makes the intersecting beam, joist, rafter, spacer, and bracing systems easier to inspect.
 
----
+![Roofless structural model](<Drawings/Roofless Drawing.png>)
 
-## 🏗 Structural Frame
+### 3. Dimensioned roof planning
 
-The pavilion is built around a **four-post structural frame** supporting a pitched roof system.
+The roof drawing records pitch, rafter/purlin placement, overhangs, and key spacing values used to translate the 3D model into field measurements.
 
-Core structural components include:
+![Dimensioned roof blueprint](<Drawings/Blueprint Roof.png>)
 
-- **4 main support studs** forming the vertical frame
-- **North–South base beams** forming the lower perimeter
-- **East–West joists** spanning the structure
-- **Spacer boards** used to distribute structural loads evenly
-- **Diagonal supports** reinforcing lateral stability
+### 4. Elevation and below-grade planning
 
-The structure reaches approximately:
+The side blueprint brings together above-grade height, post depth, roof peak, and framing relationships in one build reference.
 
-- **21.27 ft total height**
-- **34.63 ft roof length (North–South)**
-- **20.42 ft roof width (East–West)**
+![Dimensioned side blueprint](<Drawings/Blueprint Side.png>)
 
-The main support posts extend **56 inches below ground** for stability and anchoring.
+### 5. Visualization and systems planning
 
----
+The Unity project imports the pavilion and speaker models so the structure can be reviewed spatially. Custom scripts support camera movement and object visibility, while prefabs and transparent cone materials help visualize speaker placement/coverage. The repository also includes a proposal document and hundreds of Parasolid (`.x_t`) component exports from the CAD assembly.
 
-## 🪵 Roof System
+## Construction and finished pavilion
 
-The roof system was designed as a **high-pitch rafter structure** with distributed load support.
+The ten photographs below are intentionally presented as a 2 × 5 build gallery, moving from framing and fabrication to the completed gathering space.
 
-Major roof elements include:
+<table>
+  <tr>
+    <td width="50%"><img src="Images/IMG_2100.jpeg" alt="Pavilion framing viewed from above"><br><sub>Framing and joinery viewed from the lift.</sub></td>
+    <td width="50%"><img src="Images/IMG_5336.jpeg" alt="Rafter and bracing installation"><br><sub>Rafters, bracing, and intersecting members during construction.</sub></td>
+  </tr>
+  <tr>
+    <td><img src="Images/IMG_5337.jpeg" alt="Roof framing silhouette"><br><sub>The pitched roof geometry taking shape.</sub></td>
+    <td><img src="Images/IMG_7932.jpeg" alt="Cutting structural lumber"><br><sub>On-site fabrication translating dimensions into parts.</sub></td>
+  </tr>
+  <tr>
+    <td><img src="Images/IMG_8040.jpeg" alt="Pavilion with roof installed"><br><sub>Roof installation and the emerging full silhouette.</sub></td>
+    <td><img src="Images/IMG_8464.jpeg" alt="Integrated pavilion lighting"><br><sub>Lighting integrated into the exposed timber structure.</sub></td>
+  </tr>
+  <tr>
+    <td><img src="Images/IMG_8580.jpeg" alt="Completed pavilion and hardscape"><br><sub>Completed shell with surrounding hardscape underway.</sub></td>
+    <td><img src="Images/IMG_8805.jpeg" alt="Outdoor kitchen installation"><br><sub>Interior amenity and site work beneath the pavilion.</sub></td>
+  </tr>
+  <tr>
+    <td><img src="Images/IMG_9575.jpeg" alt="Gathering hosted beneath the pavilion"><br><sub>The finished structure serving as a gathering space.</sub></td>
+    <td><img src="Images/IMG_9832%202.jpeg" alt="Front view of completed pavilion"><br><sub>Final front elevation and exposed timber frame.</sub></td>
+  </tr>
+</table>
 
-- **12 long rafters** forming the pitched roof frame
-- **Purlins running East–West** across the entire roof span
-- **Intermediate support boards** between rafters
-- **Trim boards** along the roof edges
-- **Flush roof boards** filling lower rafter gaps
+## Structural and systems thinking
 
-The rafters were cut at an angle of **29.034°** to create the roof peak, producing a total roof extension angle of approximately **69°**.
+The project required coordination across disciplines. Frame geometry had to be buildable; roof members had to align across a large span; equipment and conduit had to be anticipated before finishes; and the digital model had to remain understandable enough to guide work in the field.
 
-Spacing across the roof was planned to maintain **consistent structural load distribution**, including:
+The result demonstrates a full feedback loop:
 
-- **24-inch spacing** between purlin supports
-- evenly distributed rafter structure
-- reinforcement from diagonal framing
+```text
+site observation → measured model → dimensioned drawings → fabrication
+       ↑                                                    ↓
+       └──────────── verification against the build ────────┘
+```
 
----
+## Explore the repository
 
-## ⚡ Electrical Infrastructure
-
-Electrical routing was integrated directly into the pavilion structure using **underground conduits** and vertical cable runs.
-
-Installed infrastructure includes:
-
-- Two **live power lines** routed through the **NE support stud**
-- A **light switch box** controlling selected circuits
-- **XLR audio lines** routed through the **NW support stud** to the roof
-- **Cat6 networking cable compatibility** within conduit paths
-
-The switch box supports:
-
-- **One always-on power line**
-- **One externally switched power line**
-- **Two light-switch controlled circuits**
-
-The electrical box is designed for:
-
-- **Dual outlet socket**
-- **Double rocker light switch**
-
-This configuration supports **lighting, power outlets, and event audio systems** within the pavilion.
-
----
-
-## 📏 Dimensional Layout
-
-
-
-Vertical structural components were designed around a **12-foot visible height** above ground.
-
----
-
-## 🧱 Structural Elements
-
-Major structural elements modeled in the pavilion include:
-
-### Main Frame
-- **A — Main Studs**  
-  Four primary vertical structural posts forming the frame. **12 yards** of concrete poured for support
-
-### Base Structure
-- **B — North–South Base Boards**  
-  Lower perimeter beams supporting joists.
-
-- **C — East–West Joists**  
-  Cross-members distributing structural load.
-
-### Spacing Systems
-- **D — NS Spacers**  
-  Even spacing system for base boards.
-
-- **E — EW Spacers**  
-  Cross-spacing between joists.
-
-### Roof Support
-- **L — Purlin Supports**  
-  Boards supporting the horizontal purlins between rafters.
-
-- **M — Purlins**  
-  Long roof boards spanning East–West.
-
-- **N — Roof Trim**  
-  Edge finishing boards across the roof perimeter.
-
-### Structural Reinforcement
-- **P — Diagonal Supports**  
-  Reinforcement beams intersecting with rafters to stabilize the structure.
-
----
-
-## 🖼 Blueprint Drawings
-
-
-### Roof Blueprint
-
-![](https://github.com/kentonbell/Pavilion-3D-Blueprints/blob/7f01ab4ba3370b99f02610582be2d307d8f998fb/Drawings/Blueprint%20Roof.png)
-
----
-
-### Structural Frame (Roof Removed)
-
-![](https://github.com/kentonbell/Pavilion-3D-Blueprints/blob/7f01ab4ba3370b99f02610582be2d307d8f998fb/Drawings/Roofless%20Drawing.png)
-
----
-
-### Side Blueprint View
-
-![](https://github.com/kentonbell/Pavilion-3D-Blueprints/blob/7f01ab4ba3370b99f02610582be2d307d8f998fb/Drawings/Blueprint%20Side.png)
-
----
-
-### Final Satellite View
-
-
-![](https://github.com/kentonbell/Pavilion-3D-Blueprints/blob/6f66ec646889b7ff0795ed66367ceb7f273e37ad/Drawings/Sat%20View.png)
-
----
-
-## 📌 Summary
-
-The pavilion blueprint project documents the **design and structural planning of a large outdoor pavilion**, including:
-
-- Structural framing
-- Roof geometry
-- Electrical routing
-- Dimensional layout
-- 3D blueprint visualization
-
-These blueprints reflect the **completed structural design developed and built during the May–July 2024 construction period**.
-
-
+```text
+.
+├── Drawings/                          # Five presentation and blueprint views
+├── Images/                            # Ten construction/final photographs
+├── Pavilion 12.0 CAD/                 # Parasolid component exports
+├── Assets/                            # Unity models, materials, prefabs, scripts, scenes
+├── Packages/                          # Unity package manifest and lockfile
+├── ProjectSettings/                   # Reproducible Unity project configuration
+├── Pavilion obj.dae                   # Combined pavilion model export
+└── Proposal.docx                      # Project proposal
+```
+
+Open the root folder as a Unity project to explore the visualization. CAD-capable software that supports Parasolid can inspect the individual `.x_t` components.
+
+## Skills demonstrated
+
+CAD assembly, architectural visualization, Unity, dimensional documentation, design-for-construction, field fabrication, electrical/audio systems planning, 3D asset integration, and carrying a complex project from concept through physical completion.
